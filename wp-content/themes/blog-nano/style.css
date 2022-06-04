@@ -1,0 +1,69 @@
+.screen-reader-text {border: 0;clip: rect(1px,1px,1px,1px);clip-path: inset(50%);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute !important;width: 1px;word-wrap: normal !important;}
+.screen-reader-text:focus {background-color: #f1f1f1;border-radius: 3px;box-shadow: 0 0 2px 2px rgba(0,0,0,.6);clip: auto !important;clip-path: none;color: #21759b;display: block;font-size: 14px;font-size: .875rem;font-weight: bold;height: auto;left: 5px;line-height: normal;padding: 15px 23px 14px;text-decoration: none;top: 5px;width: auto;z-index: 100000;}
+.read-more .link:focus {outline: dotted !important;color: #de0000 !important;background: #000;}
+a:focus {outline: solid;color: red;}
+ul li a:focus ~ ul {display: block;visibility: visible;opacity: 1;left: auto;animation: fadeinUp .3s;color: #000;}
+ul li:focus-within > ul {display: block;opacity: 1;visibility: visible;left: 0;animation: fadeinUp .3s;}
+ul li li:focus-within > ul {left: 100%;}
+.main-navigation ul.sub-menu li:focus {background: #de0000;}
+.main-navigation li li a:focus {color: #000;}
+#content[tabindex="-1"]:focus {outline: 0;}
+.web-log-post-list .post-thumbnail {float: left;margin-right: 20px;}
+.web-log-post-list .post-wrapper .entry-header {padding-top: 10px;}
+.web-log-post-list .post-wrapper .entry-content p {margin-bottom: 15px;}
+.web-log-post-list .post-thumbnail {float: left;margin-right: 20px;}
+.web-log-post-list .post-content-wrapper {overflow: hidden;}
+.web-log-post-list .post-wrapper .entry-header {padding-top: 10px;}
+.web-log-post-list .post-wrapper .entry-content p {margin-bottom: 15px;}
+.web-log-post-list article.post {border-bottom: 1px solid #eee;padding-bottom: 30px;padding: 20px;margin-block-start: 30px;}
+.web-log-post-list .meta-category a {font-size: 9px;background: #de0000;padding: 4px 7px;text-transform: uppercase;color: #fff;font-weight: 500;letter-spacing: 1px;border-radius: 4px;}
+.web-log-post-list .post-wrapper .entry-header {padding-left: 4px;}
+.post-wrapper {padding: 20px;background-color: #fff;}
+.social-links ul li a {color: #f36a25;font-size: 0px;}
+.rtl .read-more i {transform: rotate(180deg);}
+.woocommerce .woocommerce-product-rating {display: none;}
+.top-seller-section .product-list {padding: 12px;}
+.type-page .entry-content p {text-indent: unset;}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {color: #fff;background-color: #de0000;}
+.woocommerce-message {border-top-color: #de0000;}
+.woocommerce-message::before {color: #de0000;}
+input[type="number"] {padding: .4em;}
+#secondary input[type="search"] {padding: .9em;}
+.product-list-wrapper .price {display: block;margin-bottom: .5rem;}
+.home .sec-title h2 {margin-top: 1rem;margin-bottom: 1rem;}
+.woocommerce span.onsale {background-color: #de0000;}
+.woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce ul.products li.product .price {color: #de0000;}
+#secondary .woocommerce {margin-bottom: 32px;}
+.col-1, .col-2 {flex: 48% !important;max-width: 48% !important;}
+.woocommerce form .form-row {padding: 3px;margin: 0 0 6px;}
+.woocommerce form .form-row label {width: 100%;}
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {box-sizing: border-box;width: 100%;margin: 0;background: #eee;outline: 0;line-height: normal;border: none;padding: 10px;min-height: 37px;}
+.select2-container--default .select2-selection--single {background-color: #fff;border: 1px solid #aaa;background: #eee;min-height: 40px;border-radius: 4px;}
+.woocommerce-checkout span.woocommerce-input-wrapper {width: 100%;}
+.web-log-post-list .entry-header .entry-title {margin-bottom: 0px;}
+.footer-area .footer-top .rounded {border-radius: 2.25rem !important;}
+.everest-forms .everest-forms-part-button, .everest-forms button, .everest-forms button[type=submit], .everest-forms input[type=submit], .everest-forms .everest-forms-part-button:active, .everest-forms .everest-forms-part-button:hover, .everest-forms button:active, .everest-forms button:hover, .everest-forms button[type=submit]:active, .everest-forms button[type=submit]:hover, .everest-forms input[type=submit]:active, .everest-forms input[type=submit]:hover {color: #fff;height: auto;cursor: pointer;background: 0 0;box-shadow: none;font-size: inherit;font-weight: 400;line-height: 1.5;padding: 10px 15px;border-radius: 3px;border: 1px solid #de0000;background-color: #de0000;}
+.read-more .link {background: #de0000;}
+.header-breadcrumb {background-color: #f36a25;}
+button, input[type="button"], input[type="submit"] {background-color: #de0000;}
+.main-navigation a:hover {color: #de0000;}
+.current-menu-item a {color: #de0000;}
+.pagination-wrap .nav-links a {color: #de0000;}
+.back-to-top > i {background-color: #de0000;}
+.widget .widget-title:before {background: #de0000;}
+.widget .widget-title:before {background-color: #de0000;}
+.header-wrapper .header-top {background: #de0000;border-bottom: 1px solid #de0000;}
+body a:hover, body a:active {color: #de0000;text-decoration: none;}
+.site-title, .site-title a {color: #de0000;}
+.header-breadcrumb {background-color: #de0000;}
+h4.ct_post_area-title span:after {background-color: #de0000;}
+.page-header .page-title {background: #de0000;}
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {background: #de0000;}
+#search-popup.popup-box-on #search input[type="search"] {border-bottom: 1px solid #de0000;}
+.search-results article.product {margin-top: 90px;}
+.btn {background: #de0000;}
+@media screen and (min-width: 48em) {.main-navigation li li:hover, .main-navigation li li.focus {background: #de0000;}}
+.web-log-post-list .row:first-child article.post {margin-top: 0px;margin-bottom: 30px;}
+@media screen and (max-width: 991px) {.calendar_wrap td {padding: 0;}
+	.web-log-post-list .post-thumbnail img {width: 100%;}
+	.web-log-post-list .post-thumbnail {float: none;margin-right: 0;margin-bottom: 20px;}}
